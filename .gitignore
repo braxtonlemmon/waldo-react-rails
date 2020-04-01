@@ -24,5 +24,6 @@
 # Ignore the local database.yml
 /config/database.yml
 
-#
+# node_modules
 /node_modules
+/frontend/node_modules
