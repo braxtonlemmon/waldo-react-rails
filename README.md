@@ -15,6 +15,8 @@ The major roadblocks came when I attempted to deploy the application to Heroku. 
 
 I then spent a good amount of time using various resources in an attempt to finally deploy to Heroku. After reading and following a [Heroku blog post](https://blog.heroku.com/a-rock-solid-modern-web-stack) I was able to deploy my application.
 
+The original project repository with all of the original commits can be found [here](https://github.com/braxtonlemmon/find-waldo)
+
 # Live version
 Checkout a live version [here](https://pumpkin-surprise-94026.herokuapp.com/)
 
