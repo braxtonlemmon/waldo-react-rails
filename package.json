@@ -6,8 +6,8 @@
   "author": "Braxton Lemmon <braxtonlemmon@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "cd frontend && yarn install && yarn build && cd ..",
-    "deploy": "cp -a frontend/build/. public/",
+    "build": "cd client && yarn install && yarn build && cd ..",
+    "deploy": "cp -a client/build/. public/",
     "postinstall": "yarn build && yarn deploy && echo 'Client built!'"
   },
   "engines": {
