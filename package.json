@@ -1,12 +1,18 @@
 {
-  "name": "waldo",
-  "engines": {
-    "node": "13.7.0"
-  },
+  "name": "waldo-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:braxtonlemmon/waldo-react-rails.git",
+  "author": "Braxton Lemmon <braxtonlemmon@gmail.com>",
+  "license": "MIT",
   "scripts": {
-    "build": "cd frontend && npm install && npm run build & cd ..",
-    "deploy": "cp -a frontend/build/ public/",
-    "postinstall": "npm run build && npm run deploy && echo 'Client built!'"
+    "build": "cd frontend && yarn install && yarn build && cd ..",
+    "deploy": "cp -a frontend/build/. public/",
+    "postinstall": "yarn build && yarn deploy && echo 'Client built!'"
+  },
+  "engines": {
+    "yarn": "1.22.4",
+    "npm": "6.13.6",
+    "node": "13.7.0"
   }
 }
-
