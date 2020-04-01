@@ -9,9 +9,9 @@ persons = [
 persons.each do |name, left, right, top, bottom|
   Person.create(
     name: name,
-    left: left,
-    right: right,
-    top: top,
-    bottom: bottom
+    left_edge: left,
+    right_edge: right,
+    top_edge: top,
+    bottom_edge: bottom
   )
 end
